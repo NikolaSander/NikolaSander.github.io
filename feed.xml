@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-07-29T12:28:48+01:00</updated>
+<updated>2014-07-29T12:40:00+01:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -83,10 +83,10 @@ Let’s take one step forward by treating immigrants coming to your country as y
   </author>
   <content type="html">&lt;p&gt;A very pleasant way to avoid death by PowerPoint in conference presentations is to use visuals! Whiteboard animations allow you to visualise almost any complex method or finding in a way that is easily understandable by your audience (more details on the power of visuals &lt;a title=&quot;Huffingtonpost&quot; href=&quot;http://www.huffingtonpost.com/phil-simon/the-persuasive-power-of-v_b_5093192.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, and &lt;a title=&quot;HBR&quot; href=&quot;http://blogs.hbr.org/2014/04/what-i-learned-watching-150-hours-of-ted-talks/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;). An animated presentation video is definitely an effective combination of verbal and visual information.&lt;/p&gt;
 
-&lt;p&gt;This 4 minute video introduces our research on quantifying global international migration flows, which was published in &lt;a title=&quot;Science&quot; href=&quot;http://www.sciencemag.org/content/343/6178/1520&quot; target=&quot;_blank&quot;&gt;Science &lt;/a&gt;on March 28, 2014 (free access &lt;a title=&quot;The Global Flow of People&quot; href=&quot;http://www.global-migration.info&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;). I produced the video using &lt;a title=&quot;GoAnimate&quot; href=&quot;http://goanimate.com/&quot; target=&quot;_blank&quot;&gt;GoAnimate &lt;/a&gt;within 2 days. Making such animated whiteboard videos doesn’t require any magic, just some good ideas on how to visualise complex content, and a great online tool such as GoAnimate. (please turn on your speakers)&lt;/p&gt;
+&lt;p&gt;This 4 minute video introduces our research on quantifying global international migration flows, which was published in &lt;a title=&quot;Science&quot; href=&quot;http://www.sciencemag.org/content/343/6178/1520&quot; target=&quot;_blank&quot;&gt;Science &lt;/a&gt;on March 28, 2014 (free access &lt;a title=&quot;The Global Flow of People&quot; href=&quot;http://www.global-migration.info&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;). I produced the video using &lt;a title=&quot;GoAnimate&quot; href=&quot;http://goanimate.com/&quot; target=&quot;_blank&quot;&gt;GoAnimate &lt;/a&gt;within 2 days. Making such animated whiteboard videos doesn’t require any magic, just some good ideas on how to visualise complex content, and a great online tool such as GoAnimate. (please turn on your speakers)
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&amp;lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/IomLx1DNvx4&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/IomLx1DNvx4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/video-intro/&quot;&gt;Video Introducing our research on The Global Flow of People&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's Blog&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
 </entry>
