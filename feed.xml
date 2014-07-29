@@ -4,13 +4,39 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-07-28T04:13:31+01:00</updated>
+<updated>2014-07-29T12:18:14+01:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
   <uri>http://www.nikolasander.com/</uri>
   <email>nikola.sander@oeaw.ac.at</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Visualising internal migration in Germany]]></title>
+  <link rel="alternate" type="text/html" href="http://www.nikolasander.com/migration-flows-in-germany/" />
+  <id>http://www.nikolasander.com/migration-in-germany</id>
+  <published>2014-06-15T00:00:00+01:00</published>
+  <updated>2014-06-15T00:00:00+01:00</updated>
+  <author>
+    <name>Nikola Sander</name>
+    <uri>http://www.nikolasander.com</uri>
+    <email>nikola.sander@oeaw.ac.at</email>
+  </author>
+  <content type="html">&lt;p&gt;I developed an &lt;a href=&quot;http://www.german-migration.info&quot;&gt;interactive visualisation&lt;/a&gt; of internal migration in Germany together with &lt;a href=&quot;https://twitter.com/metropop_eu&quot;&gt;Ramon Bauer&lt;/a&gt; and &lt;a href=&quot;http://null2.net&quot;&gt;Johannes Schmidt&lt;/a&gt;. The newspaper &lt;a href=&quot;http://www.welt.de&quot;&gt;DIE WELT&lt;/a&gt; published a nice story about the &lt;a href=&quot;http://www.welt.de/wirtschaft/article129117096/Junge-Menschen-ziehen-massenhaft-in-die-Metropolen.html&quot;&gt;“renaissance of the metropolitan areas”&lt;/a&gt; on June 17. I also got a &lt;a href=&quot;http://www.comparativepopulationstudies.de/index.php/CPoS/article/view/89/174&quot;&gt;journal article&lt;/a&gt; published that introduces a new dataset and discusses the key trends since 1995.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/images/german_internal.png&quot;&gt;&lt;img src=&quot;/images/german_internal.png&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;how-to-read-the-circular-migration-plot&quot;&gt;How to read the circular migration plot&lt;/h3&gt;
+
+&lt;p&gt;Origins and destinations are represented by the circle’s segments. Each region/county is assigned a colour. Flows have the same colour as their origin and the width indicates their size. The direction of the flow is also shown by the white space between flow and destination. Only directional flows with at least 1,000 migrants are shown, and only flows between counties that had movements (inflows + outflows) of more than 12,000 people in 2010 are included.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migration-flows-in-germany/&quot;&gt;Visualising internal migration in Germany&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's Blog&lt;/a&gt; on June 15, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
