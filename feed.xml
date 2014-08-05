@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-08-05T19:31:43+01:00</updated>
+<updated>2014-08-05T19:40:04+01:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -42,7 +42,7 @@ The visualisation let’s you directly compare the sizes of flows across space a
 Please stop by the &lt;a href=&quot;http://www.nikolasander.com/cultural-evolution&quot;&gt;website&lt;/a&gt; that features the visualisation and provides some more details!	
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;iframe src=&quot;http:/www.nikolasander.com/cultural-evolution/embed.html&quot; width=&quot;620px&quot; height=&quot;700px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;http://www.nikolasander.com/cultural-evolution/embed.html&quot; width=&quot;620px&quot; height=&quot;700px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/culture-viz/&quot;&gt;What Big Open Data Reveal About the Cultural Evolution&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on August 05, 2014.&lt;/p&gt;</content>
