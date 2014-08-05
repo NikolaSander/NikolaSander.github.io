@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-08-05T19:40:04+01:00</updated>
+<updated>2014-08-05T20:19:52+01:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -27,7 +27,7 @@
   <content type="html">&lt;p&gt;What is the best way to visualise large and complex networks with directional connections? Traditional flow maps that show flows as lines drawn atop of a world map are usually a tough sell. Animated network visualisations work well for &lt;a href=&quot;www.wired.com/2014/03/plane-viz/&quot;&gt;airline traffic&lt;/a&gt;, but it’s not so easy to show differences in the sizes of migration flows without overcrowding the graphic. Inspired by software originally developed for genome data, I have been developing circular migration plots together with my colleagues in Vienna. But I don’t think this is the best possible way to visualise (migration) flow data. So, I always keep my eyes open for new inspiration and ideas. 
 &lt;br /&gt;
 &lt;br /&gt;
-Last week, I received a call from Kara Manke, who was working on a &lt;a href=&quot;http://www.npr.org/blogs/goatsandsoda/2014/08/01/336646562/how-cultures-move-across-continents&quot; target=&quot;_blank&quot;&gt;story&lt;/a&gt; for National Public Ratio and wanted to hear my comments on a new study of cultural evolution. Kara introduced me to a &lt;a href=&quot;http://www.sciencemag.org/content/345/6196/558.short&quot; target=&quot;_blank&quot;&gt;study by Maximilian Schich and colleagues&lt;/a&gt;, who use network modelling to examine the movement of artists around Europe and the Americas over the past 2000 years. 
+Last week, I received a call from Kara Manke, who was writing on a great &lt;a href=&quot;http://www.npr.org/blogs/goatsandsoda/2014/08/01/336646562/how-cultures-move-across-continents&quot; target=&quot;_blank&quot;&gt;story&lt;/a&gt; for National Public Radio and wanted to hear my comments on a new study of cultural evolution. Thanks Kara, for introducing me to the &lt;a href=&quot;http://www.sciencemag.org/content/345/6196/558.short&quot; target=&quot;_blank&quot;&gt;study by Maximilian Schich and colleagues&lt;/a&gt;! The authors use network modelling to examine the movement of artists around Europe and the Americas over the past 2000 years. 
 &lt;br /&gt;
 &lt;br /&gt;
 Once the paper was published in &lt;em&gt;Science&lt;/em&gt; on August 1, I was delighted to see the authors made their data freely available in the supplementary materials. The Freebase dataset revealed a breadth of information on the year and place of individual people’s birth and death on a level of detail that wasn’t immediately obvious to me from reading the paper. I realised that their data could be re-arranged into the matrix format that I’m used to work with for my migration research. I became extremely curious as to what a circular plot (that we had been using to show &lt;a href=&quot;http://www.global-migration.info/&quot; target=&quot;_blank&quot;&gt;global migration flows&lt;/a&gt;) would reveal about the cultural evolution. I wanted to explore the pros and cons of each visualisation approach by comparing them directly for the same underlying dataset. #opendata&lt;br /&gt;
