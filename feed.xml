@@ -4,13 +4,44 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-08-05T18:24:46+01:00</updated>
+<updated>2014-08-05T19:26:13+01:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
   <uri>http://www.nikolasander.com/</uri>
   <email>nikola.sander@oeaw.ac.at</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[What Big Open Data Reveal About the Cultural Evolution]]></title>
+  <link rel="alternate" type="text/html" href="http://www.nikolasander.com/culture-viz/" />
+  <id>http://www.nikolasander.com/cultural-history</id>
+  <published>2014-08-05T00:00:00+01:00</published>
+  <updated>2014-08-05T00:00:00+01:00</updated>
+  <author>
+    <name>Nikola Sander</name>
+    <uri>http://www.nikolasander.com</uri>
+    <email>nikola.sander@oeaw.ac.at</email>
+  </author>
+  <content type="html">&lt;p&gt;What is the best way to visualise large and complex networks with directional connections? Traditional flow maps with lines drawn atop of a world map are usually a tough sell. Animated network visualisations work well for airline traffic, but it’s not so easy to show differences in the sizes of migration flows without overcrowding the graphic. Inspired by software originally developed for genome data, I have been developing circular migration plots together with my colleagues in Vienna. But I don’t think this is the best possible way to visualise (migration) flow data. So, I always keep my eyes open for new inspiration and ideas. &lt;/p&gt;
+
+&lt;p&gt;Last week, I received a call from Kara Manke, who was working on a &lt;a href=&quot;http://www.npr.org/blogs/goatsandsoda/2014/08/01/336646562/how-cultures-move-across-continents&quot; target=&quot;_blank&quot;&gt;story&lt;/a&gt; for National Public Ratio and wanted to hear my comments on a new study of cultural evolution. Kara introduced me to a &lt;a href=&quot;http://www.sciencemag.org/content/345/6196/558.short&quot; target=&quot;_blank&quot;&gt;study by Maximilian Schich and colleagues&lt;/a&gt;, who use network modelling to examine the movement of artists around Europe and the Americas over the past 2000 years. &lt;/p&gt;
+
+&lt;p&gt;Once the paper was published in &lt;em&gt;Science&lt;/em&gt; on August 1, I was delighted to see the authors made their data freely available in the supplementary materials. The Freebase dataset revealed a breadth of information on the year and place of individual people’s birth and death on a level of detail that wasn’t immediately obvious to me from reading the paper. I realised that their data could be re-arranged into the matrix format that I’m used to work with for my migration research. I became extremely curious as to what a circular plot (that we had been using to show &lt;a href=&quot;http://www.global-migration.info/&quot; target=&quot;_blank&quot;&gt;global migration flows&lt;/a&gt;) would reveal about the cultural evolution. I wanted to explore the pros and cons of each visualisation approach by comparing them directly for the same underlying dataset. #opendata  &lt;/p&gt;
+
+&lt;p&gt;But the circular plot is suited for showing flows at the region or country level, and not for geo-coded data. So, I decided to select the cities that recoded a large number of births and deaths of notable people (i.e. at least 170 over the two centuries). I then identified the country (2012 geography) of each location (Freebase give the latitude &amp;amp; longitude) with the open-source GIS software QGIS. I omitted all persons who died in the same place as they were born, and grouped all remaining ‘migrants’ into 7 time periods based on the year of death. I calculated the number of birth-to-death migrants between the selected 88 cities for each time period and nested the cities within countries.&lt;/p&gt;
+
+&lt;p&gt;The visualisation let’s you directly compare the sizes of flows across space and time. Places of birth and death are represented by the circle’s segments and each country/place is assigned a unique colour. Flows have the same colour as the place of birth, and the width indicates their size. There is also gap between flow and place of death. &lt;/p&gt;
+
+&lt;p&gt;Please stop by the &lt;a href=&quot;http://www.nikolasander.com/cultural-evolution&quot;&gt;website&lt;/a&gt; that features the visualisation and provides some more details!	
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;http:/www.nikolasander.com/cultural-evolution/embed.html&quot; width=&quot;620px&quot; height=&quot;700px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/culture-viz/&quot;&gt;What Big Open Data Reveal About the Cultural Evolution&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on August 05, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

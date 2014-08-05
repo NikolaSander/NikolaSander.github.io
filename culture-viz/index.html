@@ -5,9 +5,9 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Visualising internal migration in Germany &#8211; Nikola's space on the web</title>
+<title>What Big Open Data Reveal About the Cultural Evolution &#8211; Nikola's space on the web</title>
 <meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="keywords" content="D3, data visualisation">
 <!-- Twitter Cards -->
 	
 		<meta name="twitter:card" content="summary">
@@ -19,7 +19,7 @@
 			
 		>
 	
-	<meta name="twitter:title" content="Visualising internal migration in Germany">
+	<meta name="twitter:title" content="What Big Open Data Reveal About the Cultural Evolution">
 	<meta name="twitter:description" content="My personal space on the web where I write about science and visual communication.">
 	<meta name="twitter:creator" content="@nikolasander">
 
@@ -27,16 +27,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Visualising internal migration in Germany">
+<meta property="og:title" content="What Big Open Data Reveal About the Cultural Evolution">
 <meta property="og:description" content="My personal space on the web where I write about science and visual communication.">
-<meta property="og:url" content="http://www.nikolasander.com/migration-flows-in-germany/">
+<meta property="og:url" content="http://www.nikolasander.com/culture-viz/">
 <meta property="og:site_name" content="Nikola's space on the web">
 
 
 
 
 
-<link rel="canonical" href="http://www.nikolasander.com/migration-flows-in-germany/">
+<link rel="canonical" href="http://www.nikolasander.com/culture-viz/">
 <link href="http://www.nikolasander.com/feed.xml" type="application/atom+xml" rel="alternate" title="Nikola's space on the web Feed">
 
 
@@ -132,19 +132,24 @@
   <article>
     <div class="headline-wrap">
       
-        <h1><a href="http://www.nikolasander.com/migration-flows-in-germany/" rel="bookmark" title="Visualising internal migration in Germany">Visualising internal migration in Germany</a></h1>
+        <h1><a href="http://www.nikolasander.com/culture-viz/" rel="bookmark" title="What Big Open Data Reveal About the Cultural Evolution">What Big Open Data Reveal About the Cultural Evolution</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>I developed an <a href="http://www.german-migration.info">interactive visualisation</a> of internal migration in Germany together with <a href="https://twitter.com/metropop_eu">Ramon Bauer</a> and <a href="http://null2.net">Johannes Schmidt</a>. The newspaper <a href="http://www.welt.de">DIE WELT</a> published a nice story about the <a href="http://www.welt.de/wirtschaft/article129117096/Junge-Menschen-ziehen-massenhaft-in-die-Metropolen.html">“renaissance of the metropolitan areas”</a> on June 17. I also got a <a href="http://www.comparativepopulationstudies.de/index.php/CPoS/article/view/89/174">journal article</a> published that introduces a new dataset and discusses the key trends since 1995.</p>
+      <p>What is the best way to visualise large and complex networks with directional connections? Traditional flow maps with lines drawn atop of a world map are usually a tough sell. Animated network visualisations work well for airline traffic, but it’s not so easy to show differences in the sizes of migration flows without overcrowding the graphic. Inspired by software originally developed for genome data, I have been developing circular migration plots together with my colleagues in Vienna. But I don’t think this is the best possible way to visualise (migration) flow data. So, I always keep my eyes open for new inspiration and ideas. </p>
 
-<figure>
-    <a href="/images/german_internal.png"><img src="/images/german_internal.png" /></a>
-</figure>
+<p>Last week, I received a call from Kara Manke, who was working on a <a href="http://www.npr.org/blogs/goatsandsoda/2014/08/01/336646562/how-cultures-move-across-continents" target="_blank">story</a> for National Public Ratio and wanted to hear my comments on a new study of cultural evolution. Kara introduced me to a <a href="http://www.sciencemag.org/content/345/6196/558.short" target="_blank">study by Maximilian Schich and colleagues</a>, who use network modelling to examine the movement of artists around Europe and the Americas over the past 2000 years. </p>
 
-<h3 id="how-to-read-the-circular-migration-plot">How to read the circular migration plot</h3>
+<p>Once the paper was published in <em>Science</em> on August 1, I was delighted to see the authors made their data freely available in the supplementary materials. The Freebase dataset revealed a breadth of information on the year and place of individual people’s birth and death on a level of detail that wasn’t immediately obvious to me from reading the paper. I realised that their data could be re-arranged into the matrix format that I’m used to work with for my migration research. I became extremely curious as to what a circular plot (that we had been using to show <a href="http://www.global-migration.info/" target="_blank">global migration flows</a>) would reveal about the cultural evolution. I wanted to explore the pros and cons of each visualisation approach by comparing them directly for the same underlying dataset. #opendata  </p>
 
-<p>Origins and destinations are represented by the circle’s segments. Each region/county is assigned a colour. Flows have the same colour as their origin and the width indicates their size. The direction of the flow is also shown by the white space between flow and destination. Only directional flows with at least 1,000 migrants are shown, and only flows between counties that had movements (inflows + outflows) of more than 12,000 people in 2010 are included.</p>
+<p>But the circular plot is suited for showing flows at the region or country level, and not for geo-coded data. So, I decided to select the cities that recoded a large number of births and deaths of notable people (i.e. at least 170 over the two centuries). I then identified the country (2012 geography) of each location (Freebase give the latitude &amp; longitude) with the open-source GIS software QGIS. I omitted all persons who died in the same place as they were born, and grouped all remaining ‘migrants’ into 7 time periods based on the year of death. I calculated the number of birth-to-death migrants between the selected 88 cities for each time period and nested the cities within countries.</p>
+
+<p>The visualisation let’s you directly compare the sizes of flows across space and time. Places of birth and death are represented by the circle’s segments and each country/place is assigned a unique colour. Flows have the same colour as the place of birth, and the width indicates their size. There is also gap between flow and place of death. </p>
+
+<p>Please stop by the <a href="http://www.nikolasander.com/cultural-evolution">website</a> that features the visualisation and provides some more details!	
+<br /></p>
+
+<iframe src="http:/www.nikolasander.com/cultural-evolution/embed.html" width="620px" height="700px" frameborder="0"></iframe>
 
 
       <hr />
@@ -169,7 +174,7 @@
 
 
         </div>
-        <p class="byline"><strong>Visualising internal migration in Germany</strong> was published on <time datetime="2014-06-15T00:00:00+01:00">June 15, 2014</time> by <a href="http://www.nikolasander.com/about" title="About Nikola Sander">Nikola Sander</a>.</p>
+        <p class="byline"><strong>What Big Open Data Reveal About the Cultural Evolution</strong> was published on <time datetime="2014-08-05T00:00:00+01:00">August 05, 2014</time> by <a href="http://www.nikolasander.com/about" title="About Nikola Sander">Nikola Sander</a>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -181,7 +186,7 @@
   <h4>You might also enjoy <small class="pull-right">(<a href="http://www.nikolasander.com/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="http://www.nikolasander.com/culture-viz/" title="What Big Open Data Reveal About the Cultural Evolution">What Big Open Data Reveal About the Cultural Evolution</a></li>
+      <li><a href="http://www.nikolasander.com/migration-flows-in-germany/" title="Visualising internal migration in Germany">Visualising internal migration in Germany</a></li>
     
       <li><a href="http://www.nikolasander.com/goldenrule/" title="Treat immigrants as you would want others to treat your fellow nationals living abroad">Treat immigrants as you would want others to treat your fellow nationals living abroad</a></li>
     
