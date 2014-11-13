@@ -245,9 +245,8 @@ Use <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> to convert the Markdo
 <p><br />
 The nice thing about this workflow is that you can set up an automatic formattin of the pdf and Word versions of your paper while keeping the formatting of your Mardowns files to a minimum. The trick: templates. The LaTeX templates have the file ending .latex and can be edited in Sublime Text. They look a bit like the normal LaTeX preamble. You can simply add a template to your project folder and run pandoc with the –template option:   </p>
 
-<p>’$ pandoc -S -o sample-paper.pdf –template=template1 –filter pandoc-citeproc sample-paper.md` <br />
-<br />
-The templates for Word are basically normal .docx files with formatting styles. I haven’t yet worked out how to edit the styles properly in Word, though.</p>
+<pre><code>`$ pandoc -S -o sample-paper.pdf --template=template1 --filter pandoc-citeproc sample-paper.md`    &lt;br&gt; The templates for Word are basically normal .docx files with formatting styles. I haven't yet worked out how to edit the styles properly in Word, though.
+</code></pre>
 
 <p><br />
 If you write a paper in Markdown and your collaborator makes edits to the Markdown file, you can use <a href="https://sourcegear.com/diffmerge/webhelp/chapter_introduction.html">DiffMerge</a> to see the changes. </p>
