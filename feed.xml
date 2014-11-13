@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-11-13T22:17:07+00:00</updated>
+<updated>2014-11-13T22:20:21+00:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -118,7 +118,7 @@ To get started, you need to do two things:  &lt;/p&gt;
 &lt;p&gt;Now, all you need to do is open a new file in Sublime Text and start writing. You can use &lt;a href=&quot;https://github.com/NikolaSander/NikolaSander.github.io/blob/master/images/sample-paper.zip?raw=true&quot;&gt;this zip file with all essential files&lt;/a&gt; to create a basic paper. Save the paper as a Markdown file (.md) together with your images, your bibtex file and your citation style cls file in the same folder. Alternatively, you can specify the location of bibtex and cls files in the preamble of your Markdown file. The preamble is the grey-shaded top section of the template in which you specify the title, author, abstract etc, which get picked up by LaTeX and formatted into a title page. The preamble begins and ends with ---   &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-Use &lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt; to convert the Markdown file of your paper to PDF or Word or html (&lt;em&gt;btw, this post is written in Markdown&lt;/em&gt;):   &lt;/p&gt;
+Use &lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt; to convert the Markdown file of your paper to PDF or Word or html:   &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Open the command prompt or terminal. I use Git Bash instead.   &lt;/li&gt;
@@ -131,8 +131,9 @@ Use &lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
-The nice thing about this workflow is that you can set up an automatic formattin of the pdf and Word versions of your paper while keeping the formatting of your Mardowns files to a minimum. The trick: templates. The LaTeX templates have the file ending .latex and can be edited in Sublime Text. They look a bit like the normal LaTeX preamble. You can simply add a template to your project folder and run pandoc with the –template option: &lt;br /&gt;
-‘$ pandoc -S -o sample-paper.pdf –template=template1 –filter pandoc-citeproc sample-paper.md` &lt;br /&gt;
+The nice thing about this workflow is that you can set up an automatic formattin of the pdf and Word versions of your paper while keeping the formatting of your Mardowns files to a minimum. The trick: templates. The LaTeX templates have the file ending .latex and can be edited in Sublime Text. They look a bit like the normal LaTeX preamble. You can simply add a template to your project folder and run pandoc with the –template option:   &lt;/p&gt;
+
+&lt;p&gt;’$ pandoc -S -o sample-paper.pdf –template=template1 –filter pandoc-citeproc sample-paper.md` &lt;br /&gt;
 &lt;br /&gt;
 The templates for Word are basically normal .docx files with formatting styles. I haven’t yet worked out how to edit the styles properly in Word, though.&lt;/p&gt;
 
