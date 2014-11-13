@@ -230,23 +230,28 @@ To get started, you need to do two things:  </p>
 <p>Now, all you need to do is open a new file in Sublime Text and start writing. You can use <a href="https://github.com/NikolaSander/NikolaSander.github.io/blob/master/images/sample-paper.zip?raw=true">this zip file with all essential files</a> to create a basic paper. Save the paper as a Markdown file (.md) together with your images, your bibtex file and your citation style cls file in the same folder. Alternatively, you can specify the location of bibtex and cls files in the preamble of your Markdown file. The preamble is the grey-shaded top section of the template in which you specify the title, author, abstract etc, which get picked up by LaTeX and formatted into a title page. The preamble begins and ends with ---   </p>
 
 <p><br />
-Use <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> to convert the Markdown file of your paper to PDF or Word or html (<em>btw, this post is written in Markdown</em>): <br />
-- Open the command prompt or terminal. I use Git Bash instead. <br />
-- navigate to the folder with your Markdown file and run pandoc to convert the file, for example:<br />
-            $ cd /c/users/donald.duck/sample-paper<br />
-            $ pandoc -S -o sample-paper.pdf –filter pandoc-citeproc sample-paper.md<br />
-            $ pandoc -S -o sample-paper.docx –filter pandoc-citeproc sample-paper.md<br />
- - note that I use the pandoc-citeproc filter option to process my citations
- - you should find a pdf and a docx version of your paper in the same folder  </p>
+Use <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> to convert the Markdown file of your paper to PDF or Word or html (<em>btw, this post is written in Markdown</em>):   </p>
+
+<ul>
+  <li>Open the command prompt or terminal. I use Git Bash instead.   </li>
+  <li>navigate to the folder with your Markdown file and run pandoc to convert the file, for example:<br />
+          <code>$ cd /c/users/donald.duck/sample-paper</code><br />
+          <code>$ pandoc -S -o sample-paper.pdf --filter pandoc-citeproc sample-paper.md</code><br />
+          <code>$ pandoc -S -o sample-paper.docx --filter pandoc-citeproc sample-paper.md</code>  </li>
+  <li>note that I use the pandoc-citeproc filter option to process my citations</li>
+  <li>you should find a pdf and a docx version of your paper in the same folder  </li>
+</ul>
 
 <p><br />
 The nice thing about this workflow is that you can set up an automatic formattin of the pdf and Word versions of your paper while keeping the formatting of your Mardowns files to a minimum. The trick: templates. The LaTeX templates have the file ending .latex and can be edited in Sublime Text. They look a bit like the normal LaTeX preamble. You can simply add a template to your project folder and run pandoc with the –template option: <br />
-        $ pandoc -S -o sample-paper.pdf –template=template1 –filter pandoc-citeproc sample-paper.md <br />
+‘$ pandoc -S -o sample-paper.pdf –template=template1 –filter pandoc-citeproc sample-paper.md` <br />
 <br />
-The templates for Word are basically normal .docx files with formatting styles. I haven’t yet worked out how to edit the styles properly in Word, though.
-<br />
-If you write a paper in Markdown and your collaborator makes edits to the Markdown file, you can use <a href="https://sourcegear.com/diffmerge/webhelp/chapter_introduction.html">DiffMerge</a> to see the changes. 
-<br />
+The templates for Word are basically normal .docx files with formatting styles. I haven’t yet worked out how to edit the styles properly in Word, though.</p>
+
+<p><br />
+If you write a paper in Markdown and your collaborator makes edits to the Markdown file, you can use <a href="https://sourcegear.com/diffmerge/webhelp/chapter_introduction.html">DiffMerge</a> to see the changes. </p>
+
+<p><br />
 I hope you found this introduction helpful. Let me know if something remained unclear or if you have suggestions for improving the workflow!</p>
 
 
