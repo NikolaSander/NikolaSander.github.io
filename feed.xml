@@ -4,13 +4,110 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-11-12T22:12:37+00:00</updated>
+<updated>2014-11-13T21:03:39+00:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
   <uri>http://www.nikolasander.com/</uri>
   <email>nikola.sander@oeaw.ac.at</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Writing academic papers in Markdown using Sublime Text and Pandoc]]></title>
+  <link rel="alternate" type="text/html" href="http://www.nikolasander.com/writing-in-markdown" />
+  <id>http://www.nikolasander.com/writing-in-markdown</id>
+  <published>2014-11-13T00:00:00+00:00</published>
+  <updated>2014-11-13T00:00:00+00:00</updated>
+  <author>
+    <name>Nikola Sander</name>
+    <uri>http://www.nikolasander.com</uri>
+    <email>nikola.sander@oeaw.ac.at</email>
+  </author>
+  <content type="html">&lt;p&gt;Barrett Riddleberger says we should take &lt;a href=&quot;http://www.inc.com/barrett-riddleberger/6-oh-so-pleasurable-steps-to-eliminate-procrastination.html&quot;&gt;6 pleasurable steps to eliminate procrastination&lt;/a&gt;: availability, atmosphere, attire, appetite, audio and actions. I suggest one more step when it comes to academic writing: using an appropriate word processor. I can take all the steps Barrett recommends, but when I stare at a blank MS word page, all my good writing spirits suddenly fade away. I think of the hassle of formatting a Word document, of editing equations, of including references via plug-ins that never seem to work properly, and of adding graphics that somehow lose quality. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;word-screenshot.png&quot; alt=&quot;Blank MS Word screen&quot; title=&quot;word-screenshot&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+LaTeX to the rescue? Well, I’m not so sure anymore. LaTeX is a high-quality typesetting system that is great for writing papers with lots of equations, cross-references and complex formatting requirements. For me, there is one main problem with using LaTeX as a mainstream word processor for academic writing: the code is not very clean. Setting the formatting and including graphics and tables requires lots of curly brackets, backslashes and begin/end commands. Such an elaborate code slows down the writing process and, perhaps more importantly, colleagues who are less familiar with coding may find LaTeX documents very intimidating. Collaborating with non-LaTeX users is further complicated by the fact that there is (at least to my knowledge) no straightforward conversion between LaTeX and Word. Not to mention that many journals still require you to submit your article in Word format.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+So, let’s get back to the basics: What we need is a word processor, or a word processing workflow, that is based on clean, non-intimidating code, uses open-source software, requires little coding skills, creates &amp;amp; formats reference lists automatically, and is flexible in terms of the output format. Too much to wish for? Well, Markdown+Pandoc gets pretty close! 
+&lt;br /&gt;
+&lt;br /&gt;
+I’m not the first person to suggest writing papers in &lt;a href=&quot;http://daringfireball.net/projects/markdown/basics&quot;&gt;Markdown&lt;/a&gt; and converting to other formats using &lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt;, (you can read about it &lt;a href=&quot;http://blog.martinfenner.org/2014/03/03/six-misunderstandings-about-scholarly-markdown/&quot;&gt;here&lt;/a&gt;,
+&lt;a href=&quot;http://recurrentprocessing.blogspot.co.at/2013/02/write-academic-papers-with-markdown.html&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://kieranhealy.org/blog/archives/2014/01/23/plain-text/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.html&quot;&gt;here&lt;/a&gt;) but I’m writing this blog post to spread the word - because I think it’s definitely worth a try.  &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;markdown-screenshot.png&quot; alt=&quot;Markdown screen&quot; title=&quot;markdown-screenshot&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+To get started, you need to do two things:&lt;br /&gt;
+- take 10 minutes to familiarize yourself with &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;. The code is so simple, it won’t take any longer. Use the &lt;a href=&quot;http://daringfireball.net/projects/markdown/dingus&quot;&gt;Dingus&lt;/a&gt; to get a feel for how the formatting works. 
+- take 20-30 minutes to install the necessary software:
+    + install &lt;a href=&quot;http://miktex.org/download&quot;&gt;MiKTeX&lt;/a&gt; or another LaTeX system (you need LaTeX running in the background to convert Markdown to PDF)
+    + install a reference manager (like &lt;a href=&quot;https://www.zotero.org/&quot;&gt;Zotero&lt;/a&gt; or &lt;a href=&quot;http://www.mendeley.com/&quot;&gt;Mendeley&lt;/a&gt; or &lt;a href=&quot;http://jabref.sourceforge.net/&quot;&gt;JabRef&lt;/a&gt;) and create a BibTeX file with all your references. I use Mendeley because it lets you specify citation keys and has a BibTeX Syncing function that keeps your BibTeX file up to date with the documents in your library.
+    + install &lt;a href=&quot;http://johnmacfarlane.net/pandoc/installing.html&quot;&gt;Pandoc&lt;/a&gt; 
+    + install &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;Sublime Text 3&lt;/a&gt;. It’s currently (Nov 2014) in Beta, but seems to work just fine. 
+    + install packages for Sublime Text 3.&lt;br /&gt;
+        * install &lt;a href=&quot;https://sublime.wbond.net/installation&quot;&gt;Package Control&lt;/a&gt; first
+        * restart Sublime Text
+        * open the command palette via the ctrl+shift+p shortcut or the Tools &amp;gt; Command Palette menu
+        * to install the packages, type “install” into the command palette, click on “Package Control: install package”, and type the name of the package into the console. Click on the package to install. You see all installed packages under the Preferences &amp;gt; Package Settings menu. 
+            - &lt;a href=&quot;https://sublime.wbond.net/packages/MarkdownEditing&quot;&gt;Markdown​Editing&lt;/a&gt;
+            - &lt;a href=&quot;https://sublime.wbond.net/packages/AcademicMarkdown&quot;&gt;Academic​Markdown&lt;/a&gt;
+            - &lt;a href=&quot;https://sublime.wbond.net/packages/WordCount&quot;&gt;Word​Count&lt;/a&gt;
+            - &lt;a href=&quot;https://sublime.wbond.net/packages/Citer&quot;&gt;Citer&lt;/a&gt;
+            - optional: &lt;a href=&quot;https://sublime.wbond.net/packages/Theme%20-%20Soda&quot;&gt;Theme - Soda&lt;/a&gt;
+    + restart Sublime Text
+    + set the syntax to Academic Markdown (via the View &amp;gt; Syntax menu). You can also use MarkdownEditing &amp;gt; Markdown.
+    + set the colour scheme to Academic Markdown (via the Preferences &amp;gt; Color Scheme menu)
+    + edit the user settings for the packages via the Preferences &amp;gt; Package Settings menu. For each package, there is a text file with the default settings, and a text file with the user settings. Click on “user settings” to edit the text file. &lt;br /&gt;
+    + I did the following edits to the user files. You can copy &amp;amp; paste these lines of code into your user file and go from there. Don’t forget to save the edited files.
+        * MardowndEditing (Markdown Standard):
+            {&lt;br /&gt;
+            “draw_centered”: true,&lt;br /&gt;
+            “extensions”:[“md”],&lt;br /&gt;
+            “rulers”:[],&lt;br /&gt;
+            “word_wrap”: true,&lt;br /&gt;
+            “wrap_width”: 90,&lt;br /&gt;
+            “spell_check”: true,&lt;br /&gt;
+            “dictionary”: “Packages/Language - English/en_US.dic”&lt;br /&gt;
+            }  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    * AcademicMarkdown:   
+        &#39;{  
+        &quot;draw_centered&quot;: true,  
+        &quot;extensions&quot;:[&quot;md&quot;],  
+        &quot;rulers&quot;:[],  
+        &quot;word_wrap&quot;: true,  
+        &quot;wrap_width&quot;: 90  
+        }&#39;  
+    
+    * Citer:
+        {  
+        //location of the bibtex file:  
+        &quot;bibtex_file_path&quot;: &quot;C:/Users/Nikola.Sander/Documents/library.bib&quot;,  
+        //Citer Search:  
+        &quot;search_fields&quot;: [&quot;author&quot;, &quot;title&quot;, &quot;year&quot;, &quot;id&quot;],  
+        &quot;citation_format&quot;: &quot;@%s&quot;,  
+        }    &amp;lt;br&amp;gt; &amp;lt;br&amp;gt;   Now, all you need to do is open a new file in Sublime Text and start writing. You can use [this zip file with all essential files](https://github.com/NikolaSander/NikolaSander.github.io/blob/master/images/sample-paper.zip) to create a basic paper.  
+- Save the paper as a Markdown file (.md). 
+- Keep this file, your images and your bibtex file in the same folder, or specify their location in the preamble of your Markdown file. The preamble is the grey-shaded top section of the template in which you specify the title, author, abstract etc, which get picked up by LaTeX and formatted into a title page. The preamble begins and ends with ---  &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; Use Pandoc to convert the Markdown file of your paper to PDF or Word or html. 
+- Open the command prompt / terminal. I use Git Bash.
+- navigate to the folder with your Markdown file and run pandoc to convert the file, for example:  
+        $ cd /c/users/donald.duck/sample-paper  
+        $ pandoc -S -o sample-paper.pdf --filter pandoc-citeproc sample-paper.md  
+        $ pandoc -S -o sample-paper.docx --filter pandoc-citeproc sample-paper.md  
+- note that I use the pandoc-citeproc filter option to process my citations
+- you should find a pdf and a docx version of your paper in the same folder  &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; The nice thing about this workflow is that you can set up an automatic formattin of the pdf and Word versions of your paper while keeping the formatting of your Mardowns files to a minimum. The trick: **templates**. The LaTeX templates have the file ending .latex and can be edited in Sublime Text. They look a bit like the normal LaTeX preamble. You can simply add a template to your project folder and run pandoc with the --template option:
+    $ pandoc -S -o sample-paper.pdf --template=template1 --filter pandoc-citeproc sample-paper.md   &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; The templates for Word are basically normal .docx files with formatting styles. I haven&#39;t yet worked out how to edit the styles properly in Word, though. &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; If you write a paper in Markdown and your collaborator makes edits to the Markdown file, you can use [DiffMerge](https://sourcegear.com/diffmerge/webhelp/chapter_introduction.html) to see the changes.  &amp;lt;br&amp;gt; &amp;lt;br&amp;gt; I hope you found this introduction helpful. Let me know if something remained unclear or if you have suggestions for improving the workflow!
+&lt;/code&gt;&lt;/pre&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/writing-in-markdown&quot;&gt;Writing academic papers in Markdown using Sublime Text and Pandoc&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on November 13, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
