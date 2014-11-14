@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2014-11-14T13:52:53+00:00</updated>
+<updated>2014-11-14T13:56:29+00:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -28,7 +28,7 @@
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;/images/typewriter.jpg&quot;&gt;&lt;img src=&quot;/images/typewriter.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/typewriter.jpg&quot;&gt;&lt;img src=&quot;/images/typewriter.jpg&quot; width=&quot;300px&quot; /&gt;&lt;/a&gt;
     &lt;figcaption&gt;
     Montgomery Ward Escort 55 Typewiter. Credit: Oliver Hammond/Fickr
     &lt;/figcaption&gt;
@@ -87,15 +87,15 @@ To get started, you need to do two things:  &lt;/p&gt;
         &lt;ul&gt;
           &lt;li&gt;
             &lt;p&gt;MardowndEditing (Markdown Standard):&lt;br /&gt;
-  {&lt;br /&gt;
-  “draw_centered”: true,&lt;br /&gt;
-  “extensions”:[“md”],&lt;br /&gt;
-  “rulers”:[],&lt;br /&gt;
-  “word_wrap”: true,&lt;br /&gt;
-  “wrap_width”: 90,&lt;br /&gt;
-  “spell_check”: true,&lt;br /&gt;
-  “dictionary”: “Packages/Language - English/en_US.dic”&lt;br /&gt;
-  }&lt;/p&gt;
+  &lt;code&gt;{  
+  &quot;draw_centered&quot;: true,  
+  &quot;extensions&quot;:[&quot;md&quot;],  
+  &quot;rulers&quot;:[],  
+  &quot;word_wrap&quot;: true,  
+  &quot;wrap_width&quot;: 90,  
+  &quot;spell_check&quot;: true,  
+  &quot;dictionary&quot;: &quot;Packages/Language - English/en_US.dic&quot;  
+  }&lt;/code&gt;&lt;/p&gt;
           &lt;/li&gt;
           &lt;li&gt;
             &lt;p&gt;AcademicMarkdown: &lt;br /&gt;
