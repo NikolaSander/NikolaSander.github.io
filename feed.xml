@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Nikola's space on the web</title>
+<title type="text">People on the Move - science and visualisation</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.nikolasander.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.nikolasander.com" />
-<updated>2015-02-23T00:00:44+00:00</updated>
+<updated>2015-03-01T21:42:26+00:00</updated>
 <id>http://www.nikolasander.com/</id>
 <author>
   <name>Nikola Sander</name>
@@ -157,7 +157,7 @@ If you write a paper in Markdown and your collaborator makes edits to the Markdo
 I hope you found this introduction helpful. Let me know if something remained unclear or if you have suggestions for improving the workflow!&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/writing-in-markdown&quot;&gt;Writing academic papers in Markdown using Sublime Text and Pandoc&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on November 13, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/writing-in-markdown&quot;&gt;Writing academic papers in Markdown using Sublime Text and Pandoc&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on November 13, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -193,7 +193,7 @@ Please stop by the &lt;a href=&quot;http://www.nikolasander.com/cultural-evoluti
 &lt;iframe src=&quot;http://www.nikolasander.com/cultural-evolution/embed.html&quot; width=&quot;620px&quot; height=&quot;700px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/culture-viz/&quot;&gt;What Big Open Data Reveal About the Cultural Evolution&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on August 05, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/culture-viz/&quot;&gt;What Big Open Data Reveal About the Cultural Evolution&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on August 05, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -219,7 +219,7 @@ Please stop by the &lt;a href=&quot;http://www.nikolasander.com/cultural-evoluti
 &lt;p&gt;Origins and destinations are represented by the circle’s segments. Each region/county is assigned a colour. Flows have the same colour as their origin and the width indicates their size. The direction of the flow is also shown by the white space between flow and destination. Only directional flows with at least 1,000 migrants are shown, and only flows between counties that had movements (inflows + outflows) of more than 12,000 people in 2010 are included.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migration-flows-in-germany/&quot;&gt;Visualising internal migration in Germany&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on June 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migration-flows-in-germany/&quot;&gt;Visualising internal migration in Germany&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on June 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -250,7 +250,7 @@ Let’s take one step forward by treating immigrants coming to your country as y
 
 &lt;iframe src=&quot;http://cf.datawrapper.de/0gWjq/3/&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;allowfullscreen&quot; webkitallowfullscreen=&quot;webkitallowfullscreen&quot; mozallowfullscreen=&quot;mozallowfullscreen&quot; oallowfullscreen=&quot;oallowfullscreen&quot; msallowfullscreen=&quot;msallowfullscreen&quot; width=&quot;550&quot; height=&quot;420&quot;&gt;&lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/goldenrule/&quot;&gt;Treat immigrants as you would want others to treat your fellow nationals living abroad&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/goldenrule/&quot;&gt;Treat immigrants as you would want others to treat your fellow nationals living abroad&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -272,7 +272,7 @@ Let’s take one step forward by treating immigrants coming to your country as y
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/IomLx1DNvx4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/video-intro/&quot;&gt;Video Introducing our research on The Global Flow of People&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/video-intro/&quot;&gt;Video Introducing our research on The Global Flow of People&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -297,7 +297,7 @@ The data shown in this visualisation is available in the supplementary materials
 
 &lt;iframe src=&quot;https://global-migration-info.s3.amazonaws.com/embed.html&quot; width=&quot;600px&quot; height=&quot;680px&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/fingertips/&quot;&gt;The Global Flow of People at Your Fingertips&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/fingertips/&quot;&gt;The Global Flow of People at Your Fingertips&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on April 15, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -344,7 +344,7 @@ Circular plot of migration flows between 50 countries in 2005-10.
 &lt;br /&gt;
 &lt;em&gt;Circular plot of migration flows between 50 countries in 2005-10. Only flows with at least 60,000 migrants are shown.&lt;/em&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/gallery&quot;&gt;Circular Migration Plot Gallery&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/gallery&quot;&gt;Circular Migration Plot Gallery&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on April 05, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -393,7 +393,7 @@ So, the equation is simple: &lt;em&gt;important topic + unique new data of globa
 
 &lt;p&gt;If you’d like to use this image, please keep the caption information and respect the cc license guidelines by citing the source: Nikola Sander, Guy Abel and Ramon Bauer, Wittgenstein Centre for Demography and Global Human Capital, Vienna.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/one-gorgeous-chart&quot;&gt;Global Migration Flows in One Gorgeous Chart&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on March 31, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/one-gorgeous-chart&quot;&gt;Global Migration Flows in One Gorgeous Chart&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on March 31, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -457,7 +457,7 @@ So, the equation is simple: &lt;em&gt;important topic + unique new data of globa
 &lt;/ul&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/in-the-media&quot;&gt;Our Research in the Media&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on March 31, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/in-the-media&quot;&gt;Our Research in the Media&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on March 31, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -492,7 +492,7 @@ The Lone Spaniard really illustrates how our estimates are different from existi
 &lt;br /&gt;
 If you want to learn more about the (statistical) details of our methodology, please take a look at the supplementary materials of our Science paper (&lt;a href=&quot;/images/Abel_Sander2014.pdf&quot;&gt;Accepted Version&lt;/a&gt;).&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/lone-spaniard&quot;&gt;Estimating the Lone Spaniard&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on March 29, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/lone-spaniard&quot;&gt;Estimating the Lone Spaniard&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on March 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -535,7 +535,7 @@ To create a plot that visualises migration flows in an effective and visually ap
 &lt;br /&gt;
 Johannes Schmidt created a &lt;a href=&quot;https://github.com/jo/circular-migration-plot&quot;&gt;custom library&lt;/a&gt; on Github on how to do interactive plots in d3. Guy Abel also has a &lt;a href=&quot;http://gjabel.wordpress.com/2014/03/28/circular-migration-flow-plots-in-r/&quot;&gt;R-Bloggers post&lt;/a&gt; on how to do these plots in R. For more information please visit &lt;a href=&quot;http://www.global-migration.info&quot;&gt;www.global-migration.info&lt;/a&gt;. &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/diy&quot;&gt;Circular Migration Plots - Do it yourself!&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/diy&quot;&gt;Circular Migration Plots - Do it yourself!&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on March 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -564,7 +564,7 @@ Johannes Schmidt created a &lt;a href=&quot;https://github.com/jo/circular-migra
 
 &lt;p&gt;&lt;em&gt;Sorry folks. Chord diagram is temporarily unavailable - until I have time to include it into my new Jekyll/Markdown blog.&lt;/em&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/first-d3&quot;&gt;d3.js - the future of data visualisation&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 20, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/first-d3&quot;&gt;d3.js - the future of data visualisation&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 20, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -590,7 +590,7 @@ Johannes Schmidt created a &lt;a href=&quot;https://github.com/jo/circular-migra
 &lt;br /&gt;
 Download my thesis from the &lt;a href=&quot;http://espace.library.uq.edu.au/view/UQ:227846&quot;&gt;University of Queensland&lt;/a&gt; or from &lt;a href=&quot;http://figshare.com/articles/Retirement_Migration_of_the_Baby_Boomers_in_Australia_Beach_Bush_or_Busted_/1050179&quot;&gt;Figshare&lt;/a&gt;. &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/retirement-migration&quot;&gt;Retirement migration in Australia&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 19, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/retirement-migration&quot;&gt;Retirement migration in Australia&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 19, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -629,7 +629,7 @@ Our population projections underly the recently published 2013 &lt;a href=&quot;
 Details can also be found in the Wittgenstein Centre 5-year report (&lt;a href=&quot;http://www.oeaw.ac.at/wic/fileadmin/user_upload/infoFiles/WiCReport08-12w200.pdf&quot;&gt;download full report&lt;/a&gt;).&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/projections&quot;&gt;Projecting international migration&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 18, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/projections&quot;&gt;Projecting international migration&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 18, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -667,7 +667,7 @@ Together with my colleagues, I’m trying my best to let the facts speak for the
 &lt;br /&gt;
 4) Climate change will result in mass migration to the developed world. Science suggests that most people will move within their own country, and those who can afford to move across continental borders tend to be well educated.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/myths&quot;&gt;Myths about migration&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 17, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/myths&quot;&gt;Myths about migration&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 17, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -697,7 +697,7 @@ The data provide a more comprehensive picture of the spatial structure of interr
 &lt;br /&gt;
 &lt;em&gt;Data specifications:&lt;/em&gt; Counts represent the annual number of migration events across county boundaries. Within-county moves were not reported. The data are disaggregated by 6 age groups and gender. Age refers to the age at the time of the move. Moves of foreign citizens are included. The migration data used to derive these flow matrices were drawn from the German population register and kindly provided by DESTATIS. &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migration-germany&quot;&gt;New data and insights on migration in Germany&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 16, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migration-germany&quot;&gt;New data and insights on migration in Germany&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 16, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -732,7 +732,7 @@ Counting all changes of address within countries and across borders, I moved 11 
 &lt;br /&gt;
 When it comes to migration flow data, definition matters! &lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migrant-definitions&quot;&gt;Who is a migrant? Defining international movements&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 14, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/migrant-definitions&quot;&gt;Who is a migrant? Defining international movements&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 14, 2013.&lt;/p&gt;</content>
 </entry>
 
 
@@ -762,7 +762,7 @@ The bottom line is that research is not only about &lt;em&gt;doing&lt;/em&gt; it
 See also this &lt;a href=&quot;http://www.livescience.com/14779-bridging-gap-scientists-public.html&quot;&gt;story&lt;/a&gt; by Marlene Cimons from the National Science Foundation. &lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/bridging-gap&quot;&gt;Bridging the Science-Society Gap&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;Nikola's space on the web&lt;/a&gt; on October 13, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://www.nikolasander.com/bridging-gap&quot;&gt;Bridging the Science-Society Gap&lt;/a&gt; was originally published by Nikola Sander at &lt;a href=&quot;http://www.nikolasander.com&quot;&gt;People on the Move - science and visualisation&lt;/a&gt; on October 13, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>
