@@ -60,7 +60,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-socail ul li:last-child{ margin-right: 0 }
 .ds-socail ul li a:hover{color: #000; text-decoration: underline;}
 
-.ds-heading{ font-weight: 600; font-size: 3rem; line-height: 3.6875rem; margin-bottom:42px }
+.ds-heading{ font-weight: 600; font-size: 2rem; line-height: 3.6875rem; margin-bottom:42px }
 .ds-info-sectio-wrp{ padding-left:2.5rem  }
 .ds-info-sectio p,.ds-project-details p{font-size: 1.125rem; line-height: 2.25rem; margin-bottom: 20px}
 
